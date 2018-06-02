@@ -1,0 +1,39 @@
+*.class
+
+#package file
+*.jar
+*.war
+*.ear
+
+#kidff3 ignore
+*.orig
+
+#maven ignore
+target/
+
+#idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+#temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+#system ignore
+.DS_Store
+Thumds.db
+
+
+/src/main/java/breakTransport.properties
+/src/main/java/database.properties
+/src/main/java/javaWorkDB.properties
+
+
+/target/
+/out/
